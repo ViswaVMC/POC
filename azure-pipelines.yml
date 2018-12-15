@@ -20,10 +20,6 @@ steps:
 - task: NuGetCommand@2
   inputs:
     restoreSolution: '$(solution)'
-
-- task: DotNetCoreInstaller@0
-  inputs:
-    version: '2.1.300'
     
 - task: VSBuild@1
   inputs:
@@ -37,9 +33,3 @@ steps:
     platform: '$(buildPlatform)'
     configuration: '$(buildConfiguration)'
 
-- task: DotNetCoreCLI@2
-  inputs:
-    command: publish
-    publishWebProjects: True
-    arguments: '--configuration $(BuildConfiguration) --output $(Build.ArtifactStagingDirectory)'
-    zipAfterPublish: True
