@@ -42,9 +42,3 @@ steps:
   inputs:
     pathtoPublish: $(build.artifactStagingDirectory)
     artifactName: MyBuildOutputs
-
-- task: AzureRmWebAppDeployment@3
-  inputs:
-    azureSubscription: 'Free Trial (36699a8a-12a3-4221-96bd-04f27a438c51)'
-    WebAppName: 'consumerpoc'
-    Package: $(build.artifactStagingDirectory)/**/*.zip
