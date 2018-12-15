@@ -33,6 +33,16 @@ steps:
     platform: '$(buildPlatform)'
     configuration: '$(buildConfiguration)'
 
+- task: CopyFiles@2
+  inputs:
+    contents: _buildOutput\**
+    targetFolder: $(build.artifactStagingDirectory)
+
+- task: PublishBuildArtifacts@1
+  inputs:
+    pathtoPublish: $(build.artifactStagingDirectory)
+    artifactName: MyBuildOutputs
+
 - task: AzureRmWebAppDeployment@3
   inputs:
     azureSubscription: 'Free Trial (36699a8a-12a3-4221-96bd-04f27a438c51)'
