@@ -33,12 +33,8 @@ steps:
     platform: '$(buildPlatform)'
     configuration: '$(buildConfiguration)'
 
-- task: CopyFiles@2
+- task: AzureRmWebAppDeployment@3
   inputs:
-    contents: _buildOutput\**
-    targetFolder: $(build.artifactStagingDirectory)
-
-- task: PublishBuildArtifacts@1
-  inputs:
-    pathtoPublish: $(build.artifactStagingDirectory)
-    artifactName: MyBuildOutputs
+    azureSubscription: 'Free Trial'
+    WebAppName: 'consumerpoc'
+    Package: $(build.artifactStagingDirectory)/**/*.zip
