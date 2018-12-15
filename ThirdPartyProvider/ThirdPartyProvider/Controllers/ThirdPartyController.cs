@@ -43,7 +43,7 @@ namespace ThirdPartyProvider.Controllers
             //    throw new TimeoutException();
             //}     
 
-            return new string[] { "Consumer hit successfully" };
+            return new string[] { "Consumer hit successfully1" };
         }
 
         // POST: consumer/getValue
