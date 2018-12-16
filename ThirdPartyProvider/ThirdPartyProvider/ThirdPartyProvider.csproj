@@ -130,16 +130,13 @@
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
-    <None Include="Web.Dev.config">
-      <DependentUpon>Web.config</DependentUpon>
+    <Content Include="Web.Dev.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="Web.QA.config">
-      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.QA.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
+    </Content>
     <None Include="Web.Release.config">
-      <DependentUpon>Web.config</DependentUpon>
     </None>
   </ItemGroup>
   <ItemGroup>
