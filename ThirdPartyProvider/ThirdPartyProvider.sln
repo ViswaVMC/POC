@@ -7,7 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThirdPartyProvider", "Third
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThirdPartyProvider.Tests", "Tests\ThirdPartyProvider.Tests\ThirdPartyProvider.Tests.csproj", "{D4C625E6-4ABA-4079-801B-30AECBC7BC7B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThirdPartyProvider.WebJob", "WebJobs\ThirdPartyProvider.WebJob\ThirdPartyProvider.WebJob.csproj", "{1D3ED0C6-84CB-413A-956E-80742B39C1D4}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThirdPartyProviderWebJob", "WebJobs\ThirdPartyProvider.WebJob\ThirdPartyProviderWebJob.csproj", "{1D3ED0C6-84CB-413A-956E-80742B39C1D4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
