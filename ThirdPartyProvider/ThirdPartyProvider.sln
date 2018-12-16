@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThirdPartyProvider", "Third
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThirdPartyProvider.Tests", "Tests\ThirdPartyProvider.Tests\ThirdPartyProvider.Tests.csproj", "{D4C625E6-4ABA-4079-801B-30AECBC7BC7B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThirdPartyProvider.WebJob", "WebJobs\ThirdPartyProvider.WebJob\ThirdPartyProvider.WebJob.csproj", "{1D3ED0C6-84CB-413A-956E-80742B39C1D4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -31,6 +33,14 @@ Global
 		{D4C625E6-4ABA-4079-801B-30AECBC7BC7B}.QA|Any CPU.Build.0 = Debug|Any CPU
 		{D4C625E6-4ABA-4079-801B-30AECBC7BC7B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D4C625E6-4ABA-4079-801B-30AECBC7BC7B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1D3ED0C6-84CB-413A-956E-80742B39C1D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D3ED0C6-84CB-413A-956E-80742B39C1D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D3ED0C6-84CB-413A-956E-80742B39C1D4}.Dev|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D3ED0C6-84CB-413A-956E-80742B39C1D4}.Dev|Any CPU.Build.0 = Debug|Any CPU
+		{1D3ED0C6-84CB-413A-956E-80742B39C1D4}.QA|Any CPU.ActiveCfg = Release|Any CPU
+		{1D3ED0C6-84CB-413A-956E-80742B39C1D4}.QA|Any CPU.Build.0 = Release|Any CPU
+		{1D3ED0C6-84CB-413A-956E-80742B39C1D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D3ED0C6-84CB-413A-956E-80742B39C1D4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
