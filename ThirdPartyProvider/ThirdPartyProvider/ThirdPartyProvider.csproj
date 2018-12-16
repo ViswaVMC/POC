@@ -131,7 +131,7 @@
       <DependentUpon>Web.config</DependentUpon>
     </None>
     <Content Include="Web.Dev.config">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="Web.QA.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
