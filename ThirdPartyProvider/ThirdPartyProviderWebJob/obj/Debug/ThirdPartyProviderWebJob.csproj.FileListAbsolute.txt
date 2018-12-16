@@ -57,3 +57,4 @@ C:\GitHub\ThirdPartyProvider\ThirdPartyProviderWebJob\bin\Debug\zh-Hans\Microsof
 C:\GitHub\ThirdPartyProvider\ThirdPartyProviderWebJob\bin\Debug\zh-Hant\Microsoft.Data.Services.Client.resources.dll
 C:\GitHub\ThirdPartyProvider\ThirdPartyProviderWebJob\obj\Debug\ThirdPartyProviderWebJob.exe
 C:\GitHub\ThirdPartyProvider\ThirdPartyProviderWebJob\obj\Debug\ThirdPartyProviderWebJob.pdb
+C:\GitHub\ThirdPartyProvider\ThirdPartyProviderWebJob\obj\Debug\ThirdPartyProviderWebJob.csprojResolveAssemblyReference.cache

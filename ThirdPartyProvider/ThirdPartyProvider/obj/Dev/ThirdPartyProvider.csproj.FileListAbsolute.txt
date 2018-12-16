@@ -36,3 +36,4 @@ C:\GitHub\ThirdPartyProvider\ThirdPartyProvider\bin\System.Net.Http.Formatting.x
 C:\GitHub\ThirdPartyProvider\ThirdPartyProvider\bin\System.Web.Http.xml
 C:\GitHub\ThirdPartyProvider\ThirdPartyProvider\bin\System.Web.Http.WebHost.xml
 C:\GitHub\ThirdPartyProvider\ThirdPartyProvider\obj\Dev\ThirdPartyProvider.dll
+C:\GitHub\ThirdPartyProvider\ThirdPartyProvider\obj\Dev\ThirdPartyProvider.csprojResolveAssemblyReference.cache
