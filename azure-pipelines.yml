@@ -38,6 +38,11 @@ steps:
     contents: _buildOutput\**
     targetFolder: $(build.artifactStagingDirectory)
 
+- task: CopyFiles@2
+  inputs:
+    contents: _Web.Dev.Config\**
+    targetFolder: $(build.artifactStagingDirectory)
+
 - task: PublishBuildArtifacts@1
   inputs:
     pathtoPublish: $(build.artifactStagingDirectory)
